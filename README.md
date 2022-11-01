@@ -16,6 +16,8 @@ Control de Versiones Git
 | git commit -a(m) (Mensaje) | Realiza el función de git add junto con el commit |
 | git log <archivo> | Ver el historial de cambios realizados en el archivo |
 | git log --stat | Cambios específicos realizados en los archivos en cada commit (Salir con q si es muy largo)|
+| git log --all | Todos los cambios realizados históricamente |
+| git log --all --graph --decorate --oneline | Resumen de los cambios realizados y en qué ramas |
 | git show <archivo> | Comparación de los cambios realizados en un archivo |
 | git diff | Comparación del contenido del add y el actual |
 | git diff <codigo commit1> <codigo commit2> | Comparación del contenido guardado en los commits |
@@ -25,6 +27,7 @@ Control de Versiones Git
 | git checkout <rama> | Cambiar la rama en la que se está trabajando |
 | git branch | Consultar las ramas existentes y dónde estamos trabajando |
 | git branch <nombre> | Creación de una rama alternativa (Los cambios que ocurren en esta rama no se visualizan en las demás, reflejado en el archivo local)|
+| git show-branch | Historial de las ramas |
 | git merge <rama> | Fusionar la rama donde se está trabajando con el contenido de otra rama (Vigilar conflictos) |
 | git remote (-v) | Ver conexiones remotas (-v para ver fetch y push) |
 | git remote add <nombre> <enlace> | Añadir un espacio remoto |
@@ -32,6 +35,12 @@ Control de Versiones Git
 | git pull <remoto> <rama> | Traer el trabajo del remoto a la rama |
 | git pull <remoto> <rama> --allow-unrelated-histories | En el caso de error para traer el README.md |
 | git push <remoto> <rama> | Enviar contenido de la rama al remoto |
+| git tag -a <nombre> -m <commit> <codigodelcommit> | Asociar un tag a un commit |
+| git show-ref --tags | Mostrar los tags creados y su commit |
+| git push <remoto> --tags | Enviar los tags que se han creado |
+| git tag -d <tag> | Eliminar un tag |
+| git push <remoto> :refs/tags/nombre | Eliminar tag de Github |
+
 
   
 | Conexión con llaves pública y privada | Acciones |
@@ -39,4 +48,5 @@ Control de Versiones Git
 | ssh-keygen -t rsa -b 4096 -C "correo" | Creación de la llave |
 | eval $(ssh-agent -s) | Servidor ssh funcionando |
 | ssh-add "dirección-llave-id_rsa" | Añadir llave privada |
+| alias nombre="comando" | Asociar un alias a un comando concreto |
   
