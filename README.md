@@ -28,6 +28,7 @@ Control de Versiones Git
 | git merge <rama> | Fusionar la rama donde se está trabajando con el contenido de otra rama (Vigilar conflictos) |
 | git remote (-v) | Ver conexiones remotas (-v para ver fetch y push) |
 | git remote add <nombre> <enlace> | Añadir un espacio remoto |
+| git remote set-url <nombre> <url> | Cambiar url de remoto |
 | git pull <remoto> <rama> | Traer el trabajo del remoto a la rama |
 | git pull <remoto> <rama> --allow-unrelated-histories | En el caso de error para traer el README.md |
 | git push <remoto> <rama> | Enviar contenido de la rama al remoto |
