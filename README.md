@@ -33,7 +33,8 @@ Control de Versiones Git
 | git pull <remoto> <rama> --allow-unrelated-histories | En el caso de error para traer el README.md |
 | git push <remoto> <rama> | Enviar contenido de la rama al remoto |
 
-Conexión con llaves pública y privada
+| Conexión con llaves pública y privada |
+| --- | --- |
 | ssh-keygen -t rsa -b 4096 -C "correo" | Creación de la llave |
 | eval $(ssh-agent -s) | Servidor ssh funcionando |
 | ssh-add "dirección-llave-id_rsa" | Añadir llave privada |
