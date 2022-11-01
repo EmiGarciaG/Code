@@ -26,4 +26,10 @@ Control de Versiones Git
 | git branch | Consultar las ramas existentes y dónde estamos trabajando |
 | git branch <nombre> | Creación de una rama alternativa (Los cambios que ocurren en esta rama no se visualizan en las demás, reflejado en el archivo local)|
 | git merge <rama> | Fusionar la rama donde se está trabajando con el contenido de otra rama (Vigilar conflictos) |
+| git remote (-v) | Ver conexiones remotas (-v para ver fetch y push) |
+| git remote add <nombre> <enlace> | Añadir un espacio remoto |
+| git pull <remoto> <rama> | Traer el trabajo del remoto a la rama |
+| git pull <remoto> <rama> --allow-unrelated-histories | En el caso de error para traer el README.md |
+| git push <remoto> <rama> | Enviar contenido de la rama al remoto |
+
   
