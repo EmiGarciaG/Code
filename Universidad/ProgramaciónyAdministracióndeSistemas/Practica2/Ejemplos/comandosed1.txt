@@ -1,0 +1,25 @@
+·Imprimir la tercera línea, aparece dos veces porque no estamos en modo silencioso->cat ejemplo.txt | sed -e '3p'
+
+·Imprimir una->cat ejemplo.txt | sed -n -e '3p'
+
+·Imprimir la primera y segunda->cat ejemplo.txt | sed -n -e '1,2p'
+
+·Imprimir todo lo que no se la primera y la segunda->cat ejemplo.txt | sed -n -e '1,2!p'
+
+·Borra todas las líneas que empiecen por L->cat ejemplo.txt | sed -e '/^L/d' (p al final para imprimir sólo)
+
+·Borrado desde la línea 2 hasta el final->cat ejemplo.txt | sed -e '2.$d'
+
+·Borra desde la línea 1 hasta la línea que termina por s->cat ejemplo.txt | sed -e '1./s$/d'
+
+·Sustituir con -r y s->cat ejemplo.txt | sed -r -e 's/La/El'
+
+·Modo silencioso->cat ejemplo.txt | sed -n -r -e 's/La/El/p'
+
+·Reemplazar una cadena de dos caracteres que empiezan por L o l y después a, 1 por línea con g->cat ejemplo.txt | sed -r -e 's/[Ll]a/El/g' (Se recomienda utilizar antes grep para comprobar)
+
+·Reemplazar la segunda ocurrencia de cada línea->cat ejemplo.txt | sed -r -e 's/[Ll]a/El/2'
+
+·Todo lo que sea de o da se le pone comillas->cat ejemplo.txt | sed -r -n -e 's/(d[ea])/"\1"/p'
+
+·Mover la columna 2 a la 1 y viceversa->cat ejemplo2.txt | sed -r -n -e 's/(.*):(.*)/\2:\1/p'

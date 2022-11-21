@@ -1,0 +1,192 @@
+RELACIÓN DE EJERCICIOS
+1. Recorre las carpetas del servidor observando qué se guarda en ellas. Necesitarás acceder al
+archivo httpd.conf para modificar la configuración de Apache.
+Para ello nos moveremos a la carpeta personal y buscaremos la carpeta oculta httpd (para visualizarla escribiremos en la termianl el comando "ls -la"):
+Captura1
+Captura2
+Dentro de ese directorio tendremos diversas carpetas del servidor para su configuración, manual, librerías, etc. Buscaremos el archivo "httpd.conf" en la carpeta "conf" y lo abrimos:
+Captura 3
+Captura 4
+Algunos directorios que aparecen en la carpeta del servidor serían los siguientes:
+-/httpd/modules: Contiene los módulos habilitados y disponibles
+-/httpd/icons: Imágenes/Iconos que podemos utilizar en nuestra página
+-/httpd/htdocs: Html de la página web
+-/httpd/bin: Para la ejecución de apache
+-/httpd/man y /httpd/manual: Manuales sobre el uso de apache
+Antes de realizar cualquier actividad tenmos que cambiar la carpeta propietario (root) de apache si queremos que no nos de errores en la ejecución (start), por lo que he aplicado "sudo chown usuario *" para poder realizar las siguientes actividades sin tener que utilizar permisos de administrador todo el rato.
+-------------------------------------------------------------------------------------------------------------------
+2. Si has instalado el servidor Apache en Ubuntu con el script de Moodle, inicia y para el servidor
+Apache utilizando el ejecutable apachectl (carpeta /bin) con las opciones start y stop. Recuerda
+que tendrás que ejecutar apachectl restart cada vez que hagas un cambio en la configuración.
+Si has instalado Apache utilizando el paquete XAMPP basta que utilices la aplicación gráfica
+para encender, apagar o reiniciar el servidor Apache. Los leds de estado pasarán a verde.
+Los comandos para el control del demonio de apache son los siguientes:
+-apachectl start: Inicia el demonio httpd con el puerto correspondiente.
+-apachectl stop: Detiene el demonio interrumpiendo su servicio.
+-apache restart: Reanuda el servicio y se aplican los cambios realizados en el fichero de configuración.
+Captura5
+Iniciando apache nos ha dado un mensaje de error, esto se debe a que el puerto de escucha de apache por defecto es 80 y en nuestra máquina ya hay un servicio que lo utiliza, por lo que no puede utilizarlo.
+-------------------------------------------------------------------------------------------------------------------
+3. Por defecto, Apache escucha por el puerto 80. Comprueba si esto produce algún error e investiga
+cuál es el motivo. Modifica el puerto de escucha para que sea el 8080. Comprueba que funciona
+con un navegador, accediendo a localhost:8080. Una vez comprobado, vuelve a restaurar el
+puerto 80.
+Procedemos a cambiar el puerto de escucha a 8080 e aplicamos los cambios en apache:
+Captura6
+Captura7
+
+-------------------------------------------------------------------------------------------------------------------
+4. La carpeta raíz del servidor Apache es /htdocs. Esta es la carpeta donde primero busca Apache
+el archivo index.html. Nos bajamos un archivo index.html de Internet y lo colocamos en la raíz.
+Comprobar que ahora se muestra este archivo en lugar del index.html. Puedes buscar en Internet
+archivos básicos de HTML (Mirad lo que se puede hacer con HTML5:
+https://www.tutorialrepublic.com/html-examples.php). Nota: si estamos con XAMPP y aún no
+hemos creado el index.html se ejecutará el index.php que ya existe en el directorio raíz y que
+redirige a la carpeta /dashboard.
+Una vez descargado y cambiado el archivo index, hacemos restart para aplicar los cambios y vemos el cambio: 
+Captura8
+-------------------------------------------------------------------------------------------------------------------
+5. Cambia el nombre de los archivos ı́ndice (archivos que servirá Apache cuando el cliente sólo
+especifique un directorio). Normalmente es index.html, añadir como posibilidad index.htm y
+probar si funciona. ¿Qué prioridad se utiliza si tenemos más de un archivo índice?
+Como se podrá observar, la prioridad para elegir un índice u otro vendrá dada en el apartado "DirectoryIndex index.html index.htm", siendo el de más prioridad el html pero si lo cambiamos:
+Captura10
+Captura11
+-------------------------------------------------------------------------------------------------------------------
+6. ¿Qué opción de qué directiva es la encargada de permitir mostrar el contenido de un directorio aunque éste no contenga ningún archivo índice? Crea un nuevo directorio llamado new_folder dentro de la carpeta /htdocs, incluye un archivo cualquiera (que no sea index.html) y una imagen y prueba a utilizar esta opción para prohibir o no el listado de archivos en dicha carpeta. Para probarlo tendrás que acceder a localhost/new_folder. Agrega la Descripción “Cuadro de mando” al archivo de imagen que está en la carpeta (pistas: Directory y Options Indexes..)
+Creamos la carpeta new_folder que contiene el arhivo "No index" y la imagen "Cuadro de mando.png":
+Captura12
+Captura13
+
+Para poder acceder a localhost/new_folder tenemos que agregar al archivo de configuración la dirección de dicha carpeta y aplicamos los cambios:
+Captura14
+Captura15
+
+Para prohibir el listado de ficheros editaríamos el apartado anterior de la siguiente forma:
+Captura 16
+Captura 17
+
+Si queremos añadir los iconos para un mejor aspecto, tenemos que añadir el apartado siguiente quitando la # que hacía que fuera un comentario:
+Captura18
+Captura19
+-------------------------------------------------------------------------------------------------------------------
+7. Los archivos que sirve Apache (los que puedo ver desde el cliente) están en una carpeta concreta.
+Cambia dicha carpeta (DocumentRoot), para que sea la carpeta creada antes nuevo_root. Crear
+la carpeta y copiar dentro un conjunto de archivos .html para tu servidor web, dándole como
+nombre a uno de ellos index.html e introduciendo en él tu curso y tu asignatura preferida. Puedes
+buscar en Internet archivos básicos html.
+Vamos a crear la carpeta nuevo_root en httpd y vamos a meter dos ficheros html:
+Captura20
+Captura21
+Para que nos abra el index.html de esta carpeta debemos cambiar la dirección de Document Root, añadir el directorio, aplicar cambios y ya podemos acceder a su contenido (en mi caso solo abrirá index.html ya que HelloWorld2.html no está añadido en el DirectoryIndex):
+Captura22
+Captura23
+Captura24
+-------------------------------------------------------------------------------------------------------------------
+8. Encuentra la directiva que especifica el usuario y grupo para la ejecución de Apache. ¿Cuáles
+son y para qué sirven?
+La directiva que especifica el usuario y grupo es la siguiente:
+Captura25
+EL usuario y el grupo son aquellas con las que el servidor Apache responderá a las peticiones, no sin antes haberse iniciado como root para luego poder cambiarse a otro usuario o grupo con menores privilegios.
+-------------------------------------------------------------------------------------------------------------------
+9. Prueba a hacer un telnet al puerto del servidor (telnet localhost 8080) y a mandarle mensajes
+HTML (escribe “GET / HTTP/1.0” y pulsa dos veces intro). Prueba a escribir HOLA y pulsar
+dos veces intro. Explica qué sucede y los códigos de error que devuelve el servidor.
+Si escribimos “GET / HTTP/1.0”, estamos indicando que queremos el archivo index de la carpeta raíz(seguimos en nuevo_root), de esta forma nos indicará que sí lo tiene con el código 200 y un OK. Luego de ofrecernos información acerca del mismo archivo, imprimirá por pantalla el contenido del archivo index.html:
+Captura26
+Si hacemos de nuevo telnet, con la diferencia de que escribimos "HOLA", nos indicará que ha sido "Bad request" con código 400 y nos dice que el servidor no pudo entender la petición que le hemos enviado:
+Captura27
+------------------------------------------------------------------------------------------------------------------
+10. Encuentra la directiva que se utiliza para la visualización de páginas de error y describe cada
+unos de los tipos de errores posibles. Modifica la directiva para mostrar una página HTML
+personalizada para el error 404. Busca en Internet algún diseño llamativo.
+Buscaremos la sección para los mensajes de error y la editaremos (en mi caso voy a escoger el error 404 y poner el contenido de un html):
+Captura28
+Si intentamos buscar algún directorio inexistente, ocurrirá lo siguiente:
+Captura29
+------------------------------------------------------------------------------------------------------------------
+11. Identifica las directivas relacionadas con los archivos de logs de Apache. Para ello desactiva las
+Options en un directorio del ejercio 6, para que muestre el error 403 de Acceso Prohibido.
+Comprueba los logs y muestra las nuevas líneas que se han agregado. Reinicia apache y
+comprueba de nuevo si se ha incluido alguna línea y en qué archivos de log. Confeccione una
+tabla con los principales errores que se pueden dar en un servidor HTTP como Apache.
+En el archivo "access_log" (en la dirección "/httpd/logs) se guardan todas las peticiones procesadas por el servidor, si desactivamos las Options nos aparecerá lo siguiente en el archivo:
+Captura 30
+En el caso normal sería:
+Captura31
+En el archivo "error_log", el acceso erróneo se vería así:
+Captura 32
+El último archivo sería "httpd.pid" y guarda el ID del proceso PID (se sobreescrbie al reiniciarlo y cambia al parar-iniciar):
+Captura33
+------------------------------------------------------------------------------------------------------------------
+12. Redirecciona la dirección localhost/uco a https://www.uco.es, de manera que al acceder a
+localhost/uco aparezca la web de la Universidad de Córdoba.
+Iremos a la sección "alias_module" y añadiremos la redirección de la web de la uco:
+Captura34
+Esta sección tiene que estar previamente cargada (cargando el módulo):
+Captura35
+Comprobamos que nos hace la redirección:
+Captura36
+Captura37
+------------------------------------------------------------------------------------------------------------------
+13. Crea dos Hosts virtuales de manera que cuando un cliente se conecte al servidor usando localhost
+el servidor muestre la carpeta raı́z original, y cuando se conecte usando miproyecto.local.com
+muestre el index.html de la subcarpeta /new_folder.
+Usaremos la directiva "VirtualHost" para la creación de localhost y miproyecto.local.com:
+Captura38
+Captura39
+Una vez aplicados los cambios, comprobamos el resultado:
+Captura40
+Captura41
+
+------------------------------------------------------------------------------------------------------------------
+14. Apache permite el acceso a recursos restringidos mediante la creación de usuarios y grupos que
+deberán autenticarse antes de acceder a dicho recurso protegido. Se debe:
+a. crear los usuarios y contraseñas correspondientes dentro de un archivo llamado
+.htpasswd (para esto, tendrás que utilizar el comando
+./htpasswd -c .htpasswd usuario, incluido en la carpeta bin de Apache, una vez por
+cada usuario a añadir y luego copiar el archivo resultante a un sitio protegido; ojo, el
+-c indica que el fichero se cree nuevo, por lo que sólo debe utilizarse para el primer
+usuario, los demás usuarios con -b)
+b. Aplicar las restricciones de acceso anteriores a la carpeta new_folder del host virtual
+miproyecto.local.com. Los usuarios que tendrán acceso a ese directorio serán: user1,
+user2 y user3; y la contraseña, para todos será: entrar. Explica los pasos realizados
+para conseguirlo, y el contenido de los archivos creados.
+
+a)Realizamos la creación de los usuarios permitidos y copiamos el archivo .htpasswd a new_folder:
+Captura42
+
+b)Escribimos en el Directory de esa carpeta quienes pueden entrar y cuál es su contraseña, almacenada en el fichero copiado anteriormente (este proceso se pude realizar con un archivo auxiliar llamado .htaccess, que es igual de válido). Al intentar acceder a la página ya nos aparecerá lo siguiente:
+Captura43
+Captura44
+------------------------------------------------------------------------------------------------------------------
+15. Utilizar la plataforma de máquinas virtuales de la UCO OpenNebula (https://vonecloud.ctx.uco.es/) para desplegar una instancia de Ubuntu 18 (ver imagen). Instala
+Apache en esta máquina utilizando el archivo de bash script de instalación de Apache que está en
+Moodle. Describe qué hace el archivo y en qué carpeta se instalará Apache. Comprueba que la
+estructura de directorios es similar a la de XAMPP y ejecuta de nuevo los ejercicios 2 y 3. Entregar
+capturas de pantalla del resultado.
+Como ya se ha realizado en una instancia Ubunut(Linux Mint) y los problemas ocurridos en OpenNebula, nos saltamos este ejercicio
+------------------------------------------------------------------------------------------------------------------
+16. Describir paso a paso la instalación de Apache utilizando Docker y las ventajas que esto ofrece.
+La instalación de Apache utilizando Docker sería de la siguiente manera:
+-docker pull debian:
+Descargamos la imagen de Debian (la última por defecto, sino hay que especificar la versión)
+-docker images
+Miramos que ha sido descargada
+-docker run -i -t --name=DEBRASP debian /bin/bash
+Creación de un contenedor para su uso
+-apt-get install apache2
+Instalación de paquetes de Apache2
+-service apache2 restart
+Reinicio de Apache
+Captura45
+Captura46
+Importante salir del contenedor con Ctrl q para que tengamos el contenedor activo:
+Captura 47
+Guardar el contenedor para que no pierda información y lo guardamos con un nombre diferente "docker commit DEBRASP apache":
+Captura48
+-docker run -d -p 81:80 apache /usr/sbin/apache2ctl -D FOREGROUND
+Para lanzar el contenedor apache y asignarle un puerto (81 exterior y 80 de entrada) y se ejecutará el servicio apache.
+Una vez hecho esto, con la ip de la máquina de docker podemos acceder a lo siguiente en el navegador:
+Captura49
+Las mayores ventajas de tales contenedores radican, sobre todo, en la gestión y en la automatización de software basado en contenedoreso en otras palabras los puntos más fuertes de Docker son la portabilidad, el aislamiento, la seguridad y el ahorro de tiempo, por lo que facilita mucho el desarrollo y testeo de aplicaciones.

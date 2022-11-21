@@ -1,0 +1,17 @@
+Documentación de la clase "string":
+http://www.cplusplus.com/reference/string/string/
+
+Documentación de la clase "vector":
+http://www.cplusplus.com/reference/vector/vector/
+
+Ejemplos de C++ STL list:
+http://www.yolinux.com/TUTORIALS/LinuxTutorialC++STL.html#LIST
+
+C++ STL list reference:
+http://www.cplusplus.com/reference/list/list/
+
+Input/Output with files in C++:
+http://www.cplusplus.com/doc/tutorial/files/
+
+Método istream getline() para leer ficheros texto CSV:
+https://en.cppreference.com/w/cpp/string/basic_string/getline

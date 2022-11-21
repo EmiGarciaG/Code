@@ -1,0 +1,302 @@
+html {
+  background-color: #3498db;
+}
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #000000;
+  padding: 0 40px 40px 40px;
+  border: 5px solid black;
+}
+
+h2 {
+	color:#ffffff;
+	font-weight:bold;
+	font-size:60px;
+	font-family:Arial;
+	text-transform:uppercase;
+	text-align: center;
+}
+
+h3 {
+	color:#ffffff;
+	font-weight:bold;
+	font-size:30px;
+	font-family:Arial;
+	text-transform:uppercase;
+	text-align: center;
+}
+
+p {
+	color:#ffffff;
+	font-weight:bold;
+	font-size:25px;
+	font-family:Arial;
+	text-transform:uppercase;
+	text-align: center;
+	margin:40px;
+	padding:10px 0px;
+}
+
+
+.IniciarSesion {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display:inline-block;
+	margin:40px;
+	padding:15px 0px;
+	text-align:center;
+	width:500px;       
+	background:#3498db;
+}
+
+.Registrarse {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display:inline-block;
+	margin:40px;
+	padding:15px 0px;
+	text-align:center;
+	width:500px;
+	background:#ff0000;
+}
+
+.Atras {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display:inline-block;
+	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px;
+	background:#ff0000;
+}
+
+.btn {
+	display: block;
+  	margin: 1em 0;
+  	background:#008f39;
+  	color:#fff;
+  	font-size:1.25em;
+  	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px; 
+}
+
+input {
+  	background:#fff;
+  	
+}
+
+label {
+  	display: block;
+  	margin: .20em 0 0 0;
+  	color:#fff;
+  	font-size:1.25em;
+}
+
+select {
+	background:#fff;
+	font-size:1.15em;
+}
+
+.NoSesiones {
+	text-decoration:none;
+	font-size:1.00em;
+	color:#fff;
+	display: block;
+  	justify-content: center;
+	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px;       
+	background:#3498db;
+}
+
+.AñadirEspectaculo {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display: block;
+  	justify-content: center;
+	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px;       
+	background:#3498db;
+}
+
+.AñadirSesion {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display: block;
+  	justify-content: center;
+	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px;       
+	background:#3498db;
+}
+
+.ModificarSesion {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display: block;
+  	justify-content: center;
+	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px;       
+	background:#3498db;
+}
+
+.VentaLocalidades {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display: block;
+  	justify-content: center;
+	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px;       
+	background:#3498db;
+}
+
+.CancelarEspectaculo {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display: block;
+  	justify-content: center;
+	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px;       
+	background:#3498db;
+}
+
+.CancelarSesion {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display: block;
+  	justify-content: center;
+	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px;       
+	background:#3498db;
+}
+
+.ModificarDatos {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display: block;
+  	justify-content: center;
+	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px;       
+	background:#3498db;
+}
+
+.Desconectar {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display: block;
+  	justify-content: center;
+	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px;       
+	background:#3498db;
+}
+
+.BuscarEspectaculo {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display: block;
+  	justify-content: center;
+	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px;       
+	background:#3498db;
+}
+
+.PublicarCritica {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display: block;
+  	justify-content: center;
+	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px;       
+	background:#3498db;
+}
+
+.EliminarCritica {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display: block;
+  	justify-content: center;
+	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px;       
+	background:#3498db;
+}
+
+.ValorarCritica {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display: block;
+  	justify-content: center;
+	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px;       
+	background:#3498db;
+}
+
+.ConsultarNumeroLocalidades {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display: block;
+  	justify-content: center;
+	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px;       
+	background:#3498db;
+}
+
+.ConsultarEspectaculo {
+	text-decoration:none;
+	font-size:1.25em;
+	color:#fff;
+	display: block;
+  	justify-content: center;
+	margin:40px;
+	padding:10px 0px;
+	text-align:center;
+	width:500px;       
+	background:#3498db;
+}
+

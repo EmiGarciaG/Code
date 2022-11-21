@@ -1,0 +1,11 @@
+Guía de comandos:
+https://ss64.com/bash/
+
+Tutorial de bash:
+https://linuxconfig.org/bash-scripting-tutorial
+
+Tutorial "Learning the shell":
+www.linuxcommand.org/lc3_learning_the_shell.php
+
+Lista de códigos de colores para el Prompt:
+https://misc.flogisoft.com/bash/tip_colors_and_formatting

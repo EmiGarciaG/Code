@@ -1,0 +1,8 @@
+he conseguido mostrar un monton de fichas, pero tengo que cambiar a mostrar las de cada uno y luego las puestas
+
+una vez haga eso, colocar ficha (indistintamente un numero que otro para el servidor),  la coloco y asigno turno (mando mensaje de te toca)
+
+funcion de la partida ha acabado, tanto ganador como si uno se sale
+
+robar ficha es como asignar fichas pero solo una mientras la que le asigno no se pueda poner
+

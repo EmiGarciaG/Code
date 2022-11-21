@@ -1,0 +1,91 @@
+Detectar si una cadena es un número con strtol:
+En el ejercicio resumen de la sección 7 necesitamos distinguir si un argumento es un identificador numérico o un nombre.
+
+Para convertir la cadena a número y, simultáneamente, comprobar si es o no un número, podemos utilizar la función strtol.
+
+La página de strtol del manual de Linux dice:
+
+long strtol(const char *nptr, char **endptr, int base);
+
+If endptr is not NULL, strtol() stores the address of the first invalid character in *endptr.  If there were no digits at all, strtol() stores the original value of nptr in *endptr (and returns 0).  In particular, if  *nptr is not '\0' but **endptr is '\0' on return, the entire string is valid.
+
+Por tanto, podemos utilizar esta condición para comprobar que la cadena describe un número válido:
+
+char *endptr;
+
+long uid = strtol(cadena_o_numero, &endptr, 10);
+
+
+
+if (((*cadena_o_numero) != '\0') && ((*endptr) == '\0')) {
+
+ // strtol tiene éxito, la cadena contiene un número
+
+} else {
+
+ // strtol ha encontrado un error, la cadena NO contiene un número
+
+}
+
+Variables de entorno:
+https://www.sysadmit.com/2016/04/linux-variables-de-entorno-permanentes.html
+
+Is it possible for users not to be in passwd?:
+https://askubuntu.com/questions/504971/is-it-possible-for-users-not-to-be-in-passwd/504972
+
+getent passwd loginUsuario:
+https://en.wikipedia.org/wiki/Getent
+
+getent group idGroup:
+https://www.cyberciti.biz/faq/linux-show-groups-for-user/
+
+getent group idGroup (parte 2):
+https://stackoverflow.com/questions/17107119/linux-command-getent-group-not-returning-users-for-some-groups
+
+¿Qué hacer cuando se termina de usar una cola de mensajes?:
+https://stackoverflow.com/questions/60042875/what-to-do-when-done-using-posix-queue/60043213#60043213
+
+The Open Group Base Specifications - Posix Standar (Estandar compatible con ANSI/ISO C):
+https://pubs.opengroup.org/onlinepubs/9699919799/
+
+Librería estándar de C (ANSI C) y tutorial:
+www.tutorialspoint.com/c_standard_library/index.htm
+
+GNU C Library o glibc (implementa a ANSI/ISO C y tambien el estandar Posix):
+https://www.gnu.org/software/libc/manual/html_node/index.html#Top
+
+GNU C Library o glibc (Índice de funciones):
+https://www.gnu.org/software/libc/manual/html_node/Function-Index.html#Function-Index
+
+GNU C Library o glibc (Índice de ficheros de cabecera):
+https://www.gnu.org/software/libc/manual/html_node/File-Index.html#File-Index
+
+GNU C Library:
+http://www.gnu.org/software/libc/libc.html
+http://ftp.gnu.org/gnu/glibc
+
+Glibc:
+http://www.eglibc.org/home
+
+Manual glibc:
+http://www.gnu.org/software/libc/manual/
+
+Procesado por la línea de comandos:
+http://www.nongnu.org/gccintro-es/gccintro.es.pdf
+
+Variables de entorno:
+https://www.sysadmit.com/2016/04/linux-variables-de-entorno-permanentes.html
+
+Comunicación entre procesos:
+http://www.lsi.us.es/cursos/seminario-1.html
+
+Wait:
+http://manpages.ubuntu.com/manpages/bionic/es/man2/wait.2.html
+
+Señales:
+http://manpages.ubuntu.com/manpages/bionic/es/man7/signal.7.html
+
+Colas:
+https://man7.org/linux/man-pages/man7/mq_overview7.html
+
+

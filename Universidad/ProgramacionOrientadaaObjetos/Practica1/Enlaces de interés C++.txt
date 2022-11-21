@@ -1,0 +1,23 @@
+Página en GitHub de Google C++ Testing Framework:
+https://github.com/google/googletest
+ 
+Google C++ Style Guide:
+https://google.github.io/styleguide/cppguide.html
+ 
+RAND_MAX:
+https://es.cppreference.com/w/cpp/numeric/random/RAND_MAX
+
+C++ reference:
+https://en.cppreference.com/w/cpp
+
+Standard C++ Foundation:
+https://isocpp.org/std/the-standard
+ 
+C++ Standards Support in GCC:
+https://gcc.gnu.org/projects/cxx-status.html#cxx2a
+ 
+What’s the difference between cxxx and xxx.h headers?:
+https://isocpp.org/wiki/faq/coding-standards#std-headers
+
+Should I use using namespace std in my code?:
+https://isocpp.org/wiki/faq/coding-standards#using-namespace-std

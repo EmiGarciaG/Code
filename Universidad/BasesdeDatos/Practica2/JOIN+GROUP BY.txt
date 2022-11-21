@@ -1,0 +1,23 @@
+Quiero mostrar la suma de número de habitantes por provincia. Si uso sólo la tabla localidades tendría el identificador de provincia.
+
+select provincia, sum(localidades.numerohabitantes) from localidades group by localidades.provincia;
+
+Para que quede más legible debo usar el join entre provincias y localidades.
+
+En el caso de llevar a cabo un join + group by debes tener en cuenta que puedes mostrar los campos por los que agrupes.
+
+Aquí muestro provincias.nombre y agrupo por provincias.nombre, mientras que en la cláusula where tengo el join. 
+
+select provincias.nombre, sum(localidades.numerohabitantes) from localidades, provincias where localidades.provincia=provincias.idprovincia group by provincias.nombre;
+
+En caso de no coincidir tendría un error (que es lo que ha ocurrido en clase):
+
+select provincias.nombre, sum(localidades.numerohabitantes) from localidades, provincias where localidades.provincia=provincias.idprovincia group by provincias.idprovincia;
+
+provincias.nombre es distinto de provincias.idprovincia aunque tendría sentido correcto la consulta como tal. Pero aparece el siguiente error:
+
+ORA-00979: no es una expresión GROUP BY
+00979. 00000 - "not a GROUP BY expression"
+*Cause: 
+*Action:
+Error en la línea: 44, columna: 8

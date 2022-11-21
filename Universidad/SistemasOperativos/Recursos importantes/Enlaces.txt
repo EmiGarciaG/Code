@@ -1,0 +1,44 @@
+Señales (Wikipedia):
+https://en.wikipedia.org/wiki/Signal_(IPC)
+ 
+Señales (Ubuntu man pages):
+http://manpages.ubuntu.com/manpages/utopic/es/man7/signal.7.html
+
+Envio de señales con kill:
+https://rm-rf.es/linux-enviar-senales-a-un-proceso-con-el-comando-kill/ 
+ 
+Códigos de error (errno.h): 
+https://es.wikipedia.org/wiki/Errno.h
+
+Manejos de procesos desde Shell:
+http://www.tutorialspoint.com/unix/unix-processes.htm
+
+Valores de columna STAT al usar comando ps:
+https://unix.stackexchange.com/questions/18474/what-does-this-process-stat-indicates
+ 
+Comandos LINUX:
+http://www.tutorialspoint.com/unix_commands/index.htm
+ 
+Linux man pages online:
+http://linux.die.net/man/ 
+
+Linux man pages online:
+https://www.kernel.org/doc/man-pages/
+
+The Open Group Base Specifications - Posix Standar (Estandar compatible con ANSI/ISO C):
+http://pubs.opengroup.org/onlinepubs/9699919799/
+
+C Standard Library, ISO C Library o libc (Sigue el estandar ANSI/ISO C):
+http://c.conclase.net/librerias/?ansifun=lista#inicio
+
+Librería estándar de C (ANSI C) y tutorial:
+ http://www.tutorialspoint.com/c_standard_library/index.htm
+
+GNU C Library o glibc (implementa a ANSI/ISO C y tambien el estandar Posix):
+https://www.gnu.org/software/libc/manual/html_node/index.html#Top
+
+GNU C Library o glibc (Índice de funciones):
+https://www.gnu.org/software/libc/manual/html_node/Function-Index.html#Function-Index
+
+GNU C Library o glibc (Índice de ficheros de cabecera):
+https://www.gnu.org/software/libc/manual/html_node/File-Index.html#File-Index

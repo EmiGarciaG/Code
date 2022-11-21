@@ -1,0 +1,1 @@
+SELECT NOMBRE||' de tipo '||TIPO FROM EVENTOS;

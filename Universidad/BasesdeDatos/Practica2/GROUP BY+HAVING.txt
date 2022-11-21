@@ -1,0 +1,10 @@
+GROUP BY.
+- Se usa para agrupar con funciones de agrupamiento tipo COUNT, MAX, MIN, etc.
+- Para ello coloco el campo por el que deseo agrupar en SELECT (inicio) y en GROUP BY.
+select provincia, sum(numerohabitantes) from localidades group by provincia;
+- El resultado sería códigos de provincia y suma de número de habitantes por provincia.
+- Si quiero saber también el nombre de la provincia necesito un JOIN entre localidades y provincias.
+- Para ello, cambio en el SELECT (inicio) por el nombre de la provincia y en el GROUP BY por el nombre de la provincia ADEMÁS de incluir la cláusula WHERE con el JOIN de las tablas provincias y localidades (también ambas en el FROM).
+select provincias.nombre, sum(localidades.numerohabitantes) from localidades, provincias where provincias.idprovincia=localidades.provincia group by provincias.nombre
+- Finalmente si deseo incluir una condición para la función de agrupación (por ejemplo sólo mostrar provincias de más de 1 millón de habitantes) debo añadir la condición dentro de la cláusula HAVING (funciona como WHERE pero para condiciones en funciones de agrupamiento).
+select provincias.nombre, sum(localidades.numerohabitantes) from localidades, provincias where provincias.idprovincia=localidades.provincia having sum(localidades.numerohabitantes)>'1000000' group by provincias.nombre

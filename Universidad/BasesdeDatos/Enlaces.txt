@@ -1,0 +1,28 @@
+Wikibook SQL:
+https://en.wikibooks.org/wiki/Structured_Query_Language
+
+Instalación ORACLE:
+1- Descarga SGBD Oracle (11g):
+https://www.oracle.com/database/technologies/xe-downloads.html
+
+2- Instalación en Ubuntu (10g):
+https://emtechy.wordpress.com/2012/07/04/installing-oracle-express-edition-10-2-32-bit-in-ubuntu-12-04-32-bit/
+
+3- Otros Clientes:
+Tora:
+https://en.wikipedia.org/wiki/TOra
+
+sqldeveloper:
+https://www.oracle.com/tools/downloads/sqldev-v192-downloads.html
+
+SQL Developer:
+https://www.oracle.com/tools/downloads/sqldev-downloads.html
+
+Conexión externa con OpenVPN a la UCO:
+www.uco.es/servicios/informatica/conexion-externa-con-openvpn
+
+Instalar SQL Developer en una distro Linux basada en debian:
+https://moodle.uco.es/m2021/pluginfile.php/6354/mod_resource/content/2/instalarDeveloperUbuntu.txt
+
+Resolver problemas de resolución de sqldeveloper en win10:
+https://christian-gohmann.de/2018/10/25/running-sql-developer-on-high-dpi-screens/

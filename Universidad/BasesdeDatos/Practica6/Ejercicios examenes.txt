@@ -1,0 +1,4 @@
+Implemente una funcionalidad que no permita que se inserten direcciones de correo invalidas en la tabla "VOTANTES".
+Para que sea una dirección válida debe comenzar con unsa secuencia de caracteres (longitud>0), seguido del caracter @, seguido de una secuencia de caracteres
+(longitud>0), luego ".", y finalmente una secuencia de caracteres (longitud>1). Puede asumir
+que en el caso del caracter "." solo aparecera como maximo una ocasion. Ej invalidos: @gmail.com, juangmail.com, juan@.com, juan@gmailcom, juan@gmail.c

@@ -1,0 +1,5 @@
+/home/emilio/Escritorio/EstructurasdeDatos/Practica3/i92gague/avl-tree/build/CMakeFiles/rebuild_cache.dir
+/home/emilio/Escritorio/EstructurasdeDatos/Practica3/i92gague/avl-tree/build/CMakeFiles/edit_cache.dir
+/home/emilio/Escritorio/EstructurasdeDatos/Practica3/i92gague/avl-tree/build/CMakeFiles/test_avltree.dir
+/home/emilio/Escritorio/EstructurasdeDatos/Practica3/i92gague/avl-tree/build/CMakeFiles/test_bstree.dir
+/home/emilio/Escritorio/EstructurasdeDatos/Practica3/i92gague/avl-tree/build/CMakeFiles/test_avltnode.dir

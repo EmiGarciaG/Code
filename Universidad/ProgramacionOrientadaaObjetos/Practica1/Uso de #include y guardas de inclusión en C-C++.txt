@@ -1,0 +1,18 @@
+En C/C++ antes de declarar un objeto de una clase, el compilador debe haber compilado al menos la declaración de esa clase. De esta forma, cuando se declare el objeto, el compilador sabrá a qué clase nos estamos refiriendo. Lo mismo ocurre cuando usamos una función, el compilador previamente debe haber compilado al menos el prototipo de esa función. Digo "al menos" porque el enlazado (link) con los cuerpos de las funciones puede hacerse posteriormente.
+
+Por eso, para cumplir este requisito, cuando editamos un fichero fuente en C/C++ se usa la orden del preprocesador #include para "incluir" los ficheros de cabecera donde se encuentran declarados las clases y/o funciones, etc. que luego usaremos en fichero fuente que estamos editando.
+
+Un fichero fuente en C o en C++ debe incluir (con la directiva del preprocesador #include) exclusivamente aquellos ficheros de cabecera que necesite dicho fichero fuente. Cada fichero fuente debe incluir exclusivamente los ficheros de cabecera que necesite, ni uno más ni uno menos. Un fichero fuente no debe incluir ficheros que necesiten otros ficheros fuente que a su vez lo incluyen a él. De esta forma los ficheros con código en C/C++ que estamos editando serán independientes unos de otros y no tendrán problemas a la hora de ser compilados independientemente.
+
+Por otro lado, cuando creamos un fichero de cabecera con nuestras declaraciones de nuestras clases, funciones, etc., es conveniente que estos ficheros de cabecera lleven todos lo que se denomina "guardas de inclusión". Cuando lanzamos a compilar un fichero fuente, éste puede incluir otros ficheros fuente y éstos a su vez a otros y así sucesivamente. Todos los ficheros que se compilan cuando lanzo a compilar un fichero fuente forman parte de la misma unidad de compilación. Las guardas de inclusión evitan que un fichero de cabecera se incluya dos veces en una misma unidad de compilación, lo cual daría un error de redefinición de los elementos declarados en ese fichero de cabecera.
+
+Supongamos que estoy creando un fichero de cabecera con mis declaraciones en un fichero al que llamaré "cabecera.h". Entonces, el código de ese fichero de cabecera debe estar escrito entre el esquema #ifndef... #endif como en el siguiente esquema:
+
+#ifndef CABECERA_H
+#define CABECERA_H
+
+... //aquí las declaraciones del fichero cabecera.h
+
+#endif
+
+La primera línea del preprocesador que se ha incluido viene a decir que si en ese momento no está definida la macro CABECERA_H entonces el compilador debe compilar lo que hay dentro del esquema #ifndef... . #endif. De esta forma, cuando el compilador pase por primera vez por este fichero no estará definida la macro CABECERA_H y por tanto entrará en el esquema condicional. Una vez dentro, lo primero que se hace es definir la macro CABECERA_H para que si se diera el caso de que en la misma unidad de compilación se volviera a incluir este fichero, como la macro CABECERA_H ya está definida, el compilador no entrará a compilar de nuevo las declaraciones evitandose el error de redefinición.

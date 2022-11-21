@@ -1,0 +1,15 @@
+Esta práctica trabaja la implementación del algoritmo de Floyd para encontrar la ruta más corta que conecta cualquier par de vértices de un grafo.
+
+Los pasos recomendados para realizar la práctica son:
+
+    Lo primero que debes hacer es leer el fichero graph.hpp donde se especifica la interfaz de un grafo ponderado WGraph<T>. Fijate cómo se añaden vertices y lados, o como se obtiene el peso de un lado.
+    Usando la especificación, implementa la función que despliega un grafo desde un flujo de entrada (ver en graph_utils.hpp).
+    Implementa la función que obtiene la matriz de pesos W a partir del lado (ver en floyd_algorithm.hpp).
+    Implementa el algoritmo de floyd para obtener las matrices D e I (ver en floyd_algorithm.hpp).
+    Implementa la función que obtiene el camino a seguir dada la matriz I (ver en floyd_algorithm.hpp).
+
+La calificaciones son:
+
+    tests_floyd-wmatrix 3 pts.
+    tests_floyd 4 pts.
+    tests_floyd-path 3 pts.

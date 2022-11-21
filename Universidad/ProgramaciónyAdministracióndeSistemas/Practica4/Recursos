@@ -1,0 +1,135 @@
+https://www.apache.org/
+https://web.mit.edu/rhel-doc/4/RH-DOCS/rhel-rg-es-4/s1-apache-config.html
+https://geekflare.com/es/apache-interview-questions-answers/
+
+Instalación:
+https://www.um.es/docencia/barzana/DAWEB/Desarrollo-de-aplicaciones-web-Xampp.html
+
+Creación de hosts virtuales:
+https://www.neoguias.com/crear-hosts-virtuales-apache/
+
+Tutorial opennebula:
+https://www.adictosaltrabajo.com/2015/11/04/tutorial-de-opennebula-jugando-con-opennebula/
+
+Instalación de apache con docker:
+https://nacholoop.github.io/enigma/docker.html
+
+Instalación apache en ubuntu opennebula:
+-sudo apt-get update
+-sudo apt-get build-essential
+
+Configuración Apache:
+·Cada módulo de Apache define un conjunto de directivas con las que configurar dichos módulos.
+·La configuración del servidor se realiza mediante la edición del archivo httpd.conf:
+	-Windows:carpeta conf del directorio deonde está instalado apache.
+	-Linux: /etc/httpd, /etc/apache2
+	-Desde httpd-conf podemos incluir otros ficheros con directivas utilizando la directiva Include <reuta archivo config>
+·El archivo httpd.conf está dividido en tres secciones:
+	-Sección Global
+		Controla el comportamiento general de Apache
+		Está bastante bien documentada en el propio archivo de configuración.
+		Comentarios <-> líneas que empiezan por (#)
+	-Sección Principal (Definición del servidor por defecto)
+		Esta sección proporcionará servicio a todas aquellas peticiones HTTP que no sean capturadas
+		por ningún <VirtualHost>.
+		Además estas opciones son heredadas por todos los <VirtualHost> de manera que sólo tenemos que
+		configurar detalles particulares de cada uno de ellos.
+	-Sección de los Host Virtuales (VirtualHosts)
+		Los Host Virtuales permiten que en un mismo Apache de servicio a varios dominios web
+		
+·Sección Global:
+	-ServerRoot
+		Ruta al directorio donde se encuentran las carpetas, bin, conf, htdocs de apache.
+	-Listen
+		Determina la dirección y el puerto en el que escuchará apache
+		El protocolo HTTP tiene asignado el puerto 80
+	-LoadModule
+		Esta directiva permite cargar módulos dinámicamente. (Módulos que no están compilados en el
+		.exe de apache)
+	-<ifDefine></ifDefine>
+		Permite ejecutar directivas condicionalmente basándose en la existencia de una propiedad,
+		habitualmente pasando un argumento adicional al arrancar apache (-D PROPIEDAD)
+
+·Sección Principal:
+	-ServerName
+		Establece el nombre completo del servidor. Habitualmente o tiene valor "localhost" o contiene
+		el nombre de un dominio.
+	-DocumentRoot
+		Establece el directorio a partir del cual se buscará el índice principal del servidor.
+		Apache buscará un archivo de los que aparecen e ne la directiva DirectoryIndex.
+	-DirectoryIndex
+		Define la lista de recursos (por orden) que se buscarán cuando un cliente solicite un directorio.
+			UserDir
+				Especifica el directorio donde se servirá contenido por usuarios.
+			Alias
+				Mapea una URL a una ruta del disco duro
+			<Location></Location>
+				Aplica las directivas que contiene a la URL especificada
+			<Directory></Directory>
+				Aplica las directivas que contiene a un directorio (y sus subdirectorios)
+				especificado
+			Allow
+				Permite restringir que IP pueden acceder a un recurso
+			Order
+				Esta directiva se utliza junto con Allow para indicar qué páginas tienen 
+				preferencia
+			OPtions
+				Configura características de un directorio. Utilizanndo (+) activamos la 
+				característica del directorio y (-) la desactivamos
+		Habitualmente la sección principal de la configuración por defecto incluye al menos 2 directivas
+		<Directory>:
+			<Directory/>...</Directory>
+			<Directory "misma ruta que DocumentRoot">...</Directory>
+		Hay que recordar que si tenemos varias Directivas <Directory> éstas son aplicadas en orden 
+		respecto a la longitud de la ruta de los directorios.
+		Dentro de los archivos de configuración podemos utilizar las directivas <Directory>, <Location>
+		según nos convenga.
+		Además podemos incluir directivas de configuración utilizando archivos .htaccess:
+			Estos archivos son como una directiva <Directory> con una ruta específica a un directorio
+		El orden de aplicación es el siguiente:
+			1. Primero se aplican las directivas <Directory> y los archivos .htaccess (si están
+			permitidos)
+			2. Se aplican las directivas <Location>
+				Esto quiere decir que finalmente las directivas <Location> tendrán mayor
+				preferencia que las directivas <Directory>
+
+·Sección de Host Virtuales
+	-El término Host Virtual en la práctica equivale a que podemos dar servicio a varios sitios web
+	en la misma máquina.
+	-Existen 2 tipos de host virtuales:
+		Basados en IP
+			La máquina tiene varias IP
+		Basados en Nombre (el más habitual)
+			La misma máquina e IP tiene asignados varios nombres
+	-La configuración de los host virtuales se realiza dentro de la directiva <VirtualHost>.
+	
+·Secure Sockets Layer
+	-Este módulo permite que apache "entienda" el protocolo HTTPS.
+	-El protocolo HTTPS es el mismo protocolo HTTP pero utilizar un canal seguro (usando SSL) para realizar
+	la comunicación de la información:
+		Un canal seguro es un canal en el que la información sólo puede entenderese en los dos extremos
+		de la comunicación, pero que "alguien" que esté en medio no puede.
+	-SSL hace uso de distintas técnicas criptográficas para crear el canal seguro.
+	
+	
+__________________________________________________________________________________________________________________
+
+·Introducción Docker: Docker es un proyecto open source que ha revolucionado la manera de desarrollar software gracias a la sencillez con la que permite gestionar contenedores. Los contenedores LXC (LinuX Containers) son un concepto relativamente antiguo y utilizado desde hace tiempo por grandes empresas como Amazon o Google, pero cuya gestión era complicada. Sin embargo, Docker define APIs y herramientas de línea de comandos que hacen casi trivial la creación, distribución y ejecución de contenedores. de ahí que el lema de Docker sea: "Build, Ship and Run. Any application, Anywhere" (Construye, envía y ejecuta. Cualquier aplicación, en cualquier lugar) y se haya convertido en una herramienta fundamental tanto para desarrolladores como para administradores de sistemas.
+
+·Podríamos definir un contenedor Docker como una máquina virtual ligera, que corre sobre un sistema operativo Linux pero con su propio sistema de ficheros, su propio espacio de usuarios y procesos, sus propias interface de red...por lo que dice que son sistemas aislados. Las características principales de Docker son su portabilidad, su inmutabilidad y su ligereza.
+
+Portabilidad
+·Un contenedor Docker es ejecutado por lo que se denomina el Docker Engine, un demonio que es fácilmente instalable en prácticamente todas las distribuciones Linux. Un contenedor ejecuta una imagen de docker, que es una representación del sistema de ficheros y otros metadatos que el contenedor va a utilizar para su ejecución. Una vez que hemos generado una imagen de Docker, ya sea en nuestro ordenador o vía una herramienta externa, esta imagen podrá ser ejecutada por cualquier Docker Engine, independientemente del sistema operativo y la infraestructura que haya por debajo.
+
+Inmutabilidad
+·Una aplicación la componen tanto el código fuente como las librerías del sistema operativo y del lenguaje de programación necesarias para la ejecución de dicho código. Estas dependencias dependen a su vez del sistema operativo donde nuestro código va a ser ejecutado, y por eso mismo ocurre muchas veces aquello de que "no sé, en mi máquina funciona". Sin embargo, el proceso de instalación de dependencias en Docker no depende del sistema operativo, si no que este procesose realiza cuando se genera una imagen de docker. Es decir, una imagen de docker (también llamada repositorio por su parecido con los repositorios de git) contiene tanto el código de la aplicación como las dependencias que necesita para su ejecución. Una imagen se genera una vez y puede ser ejecutada las veces que sean necesarias, y siempre ejecutará con la misma versión del código fuente y sus dependencias, por lo que se dice que es inmutable. Si unimos inmutabilidad con el hecho de que Docker es portable, decimos que Docker es una herramienta fiable, ya que una vez generada una imagen, ésta se comporta de la misma manera independientemente del sistema operativo y de la infraestructura donde se esté ejecutando.
+
+Ligereza
+·Los contenedores Docker corriendo en la misma máquina comparten entre ellos el sistema operativo, pero cada contenedor es un proceso independiente con su propio sistema de ficheros y su propio espacio de procesos y usuarios (para este fin Docker utiliza cgroups y namespaces, recursos de aislamiento basados en el kernel de Linux). Esto hace que la ejecución de contenedores sea mucho más ligera que otros mecanismos de virtualización. Comparemos por ejemplo con otra tecnología muy utilizada como es VirtualBox. VirtualBox permite del orden de 4 o 5 máquinas virtuales en un ordenador convencional, mientras que en el mismo ordenador podremos correr cientos de containers sin mayor problema, además de que su gestión es mucho más sencilla.
+
+Máquinas Virtuales 						Contenedores
+Más pesadas							Más ligeras
+Varios procesos							Un único proceso
+Conexión por ssh (aunque esté en local)	     		Acceso directo al contenedor
+Mas seguridad porque están aisladas del host 	Potencialmente menor seguridad porque se ejecutan como procesos 								 en el host
+

@@ -1,0 +1,5 @@
+Una empresa dedicada a la realización de encuestas y precisión de los resultados de elecciones en el ámbito nacional y local desea realizar una base de datos para la recogida, almacenamiento y análisis posterior de los datos suministrados por los ciudadanos.
+
+Para ello se deberá tener información de todos los partidos políticos que vayan a participar en unas elecciones y los datos “mínimos necesarios” de los encuestados pero suficientes para poder realizar un amplio estudio de la intención de voto y resultados de las elecciones.
+
+Así, se realizaran encuestas a los ciudadanos con anterioridad a las elecciones (y de forma generalizada) y se recogerá información de su intención de voto y, con posterioridad, a las elecciones se almacenarán los resultados de las mismas

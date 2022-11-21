@@ -1,0 +1,4 @@
+Personaliza el prompt para que adquiera este aspecto: 
+victor-ayrna :~( hola , son las 11:16:30) &
+Guardar antes de cambiar el prompt con OLDPS1=$PS1...PS1=$OLDPS1
+Solución=PS1="$HOSTNAME:~(hola, son las \t) 

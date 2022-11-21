@@ -1,0 +1,22 @@
+cat ejemplo.txt
+-----------------------------------------
+·Pidiendo que empiece por la E->cat ejemplo.txt | grep '^E'
+
+·Imprimir aquellas líneas que empiecen por E o L->cat ejemplo.txt | grep -E '^\(E\|L\)' 
+cat ejemplo.txt | grep -E '^(E|L)'
+
+·Buscando todas las comas más lo demás->cat ejemplo.txt | grep -E ',*'
+
+·Buscando 1 o más comas y lo de esa línea->cat ejemplo.txt | grep -E ',+'
+
+·Imprimir sólo los emparejamientos->cat ejemplo.txt | grep -E ',+' -o
+
+·La línea empieza por L seguido de dos caracteres además de agrupar se almacena es decir guarda los dos caracteres para buscarlos otra vez, que se repitan en la cadena, se selecciona el más largo->cat ejemplo.txt | grep -E 'L(..).*\1'
+
+·Que empiece por un número->cat ejemplo.txt | grep '^[0-9]'
+
+·Que empiece por una letra->cat ejemplo.txt | grep '^[a-Z]'
+
+·Letra-número-letra->cat ejemplo.txt | grep '^[a-Z][0-9]*[a-Z]'
+
+·Buscar archivos que contengan números->grep -E '[0-9]' $(find -name "*.*")

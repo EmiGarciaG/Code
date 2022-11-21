@@ -1,0 +1,25 @@
+ Lee de un fichero texto.
+ El formato de cada línea del fichero es string,string,stringn
+#include iostream
+#include string
+#include fstream
+
+using namespace std;
+
+int main()
+{
+    string nomfich;
+    cout  Introduce el nombre del fichero ;
+    cin  nomfich;
+    ifstream entrada(nomfich);
+    string tipo, valor, cantidad;
+    while(getline(entrada, tipo,',')){
+        getline() lee del fichero de entrada y lo pone en un string
+         hasta encontrar el delimitador o el final del fichero.
+        getline(entrada, valor,',');
+        getline(entrada, cantidad,'n');
+         Con la función stoi() puedo pasar un string a un int
+        cout  tipo=   tipo   valor=   valor   cantidad=   cantidad  endl;
+    }
+    entrada.close();
+}

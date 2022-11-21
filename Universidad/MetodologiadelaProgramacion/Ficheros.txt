@@ -1,0 +1,53 @@
+Diferencias fichero texto/binario:  Texto representan cifra a cifra y requieren separadores.
+									Binarios almacenan en bytes (representación de memoria). (Para ficheros de datos se suelen emplear binarios generalmente)
+
+
+
+Abrir/Cerrar/Añadir....  fopen(nombre, modo)
+
+	MODOS: rb, wb, ab.
+	Otras opciones: r+b (sobreescribe por la línea que vaya el puntero), w+b (borra todo el contenido anterior y escribe), a+b (mismo que ab pero pone el puntero al principio del fichero de texto).
+
+
+
+	Lectura      
+
+
+	fread(dónde lee(es un puntero) , tam (de cuanto en cuanto, suele ser sizeof(lo que estés leyendo)), num , Fichero ) -->El ptr del fichero avanza los bytes...
+
+	Existe la opción de leer todo el fichero Diapo15 teoría: fread(vectorEstructura, sizeof(estructura), nele, Fichero) (guarda todos los elementos en el vector de estructura)
+
+
+	Escritura
+
+	Dado un vector, es fácil escribir en un nuevo (wb) o añadir al final (ab) o sobreescribir líneas (r+b) con fwrite((puntero)lo que quiero escribir, sizeof(estructura), total/tope (cuando sólo añado una cosa, es 1), fichero).
+
+	ES TODO MÁS SIMPLE, SÓLO SE USAN ESTAS DOS.
+
+
+
+
+	HAY UNA GRAN VENTAJA Y ES QUE COBRA SENTIDO EL USO DE POSICIONAMIENTO DEL PUNTERO DEL FICHERO. CÓMO?
+
+	fseek---> fseek(fichero, desplazamiento, desdeDónde)
+
+	desde dónde? SEEK_SET (inicio del fichero)
+				 SEEK_CURR (desde el punto actual)
+				 SEEK_END (desde el final)
+
+	FACILIDADES: quier cambiar el registro que acabo de encontrar. Antes: Copiar y pegar (lectura escritura de todo) y cambiar esa línea.
+																   Ahora: Encuentro lo que quiero cambiar, reubico el ptr del fichero con_
+																   		  fseek(fichero, -1*sizeof(estructura), SEEK_CURR).
+																   		  escribo: fwrite.... 
+																   		  OJO (abro con r+b para poder escribir sobre líneas!)
+
+
+	Otra cosa: Saber número de registros. 1: saber número de bytes del fichero total: ftell(f). Sabiendo eso.... número de registros en el fichero: ftell(f)/sizeof(tipo).
+
+
+
+	NO OLVIDAR fclose!!!
+
+	Borrado: 					Ahora podemos borrar con la idea que teníamos otras veces (si quiero borrar i, pongo en i i+1, en i+1 i+2, etc)--> poco eficiente
+								Opción 2: Copio en un nuevo fichero sólo lo necesario. Si antes hacemos borrado lógico (poniendo marcas) es muy fácil (diapo 27). Sino, será algo más ineficiente.
+

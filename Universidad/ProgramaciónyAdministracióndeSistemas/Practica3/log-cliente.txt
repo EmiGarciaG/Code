@@ -1,0 +1,688 @@
+[2021-05-20, 18:47:55] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 18:47:55] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 18:47:55] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 18:47:55] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 18:47:58] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 18:47:58] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 18:47:58] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 18:47:58] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 18:48:01] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 18:48:01] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 18:48:01] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 18:48:01] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 18:49:38] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 18:49:38] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 18:49:38] ==> Error al abrir las colas
+[2021-05-20, 18:49:43] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 18:49:43] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 18:49:43] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 18:49:43] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:26:50] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:26:50] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:26:50] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:26:50] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:27:00] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:27:00] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:27:00] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:27:00] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:27:18] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:27:18] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:27:18] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:27:18] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:28:57] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:28:57] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:28:57] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:28:57] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:35:13] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:35:13] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:35:13] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:35:13] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:38:44] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:38:44] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:38:44] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:38:44] ==>  [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:39:13] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:39:13] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:39:13] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:39:13] ==>  [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:39:17] ==>  Recibido el mensaje: 
+[2021-05-20, 19:39:17] ==> 4
+[2021-05-20, 19:40:21] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:40:21] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:40:21] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:40:21] ==>  [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:40:25] ==>  Recibido el mensaje: 
+[2021-05-20, 19:40:25] ==> 9
+[2021-05-20, 19:40:33] ==>  Recibido el mensaje: 
+[2021-05-20, 19:40:33] ==> 11
+[2021-05-20, 19:40:50] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:40:50] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:40:50] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:40:50] ==>  [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:40:57] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:40:57] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:40:57] ==> Error al abrir las colas
+[2021-05-20, 19:40:59] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:40:59] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:40:59] ==> Error al abrir las colas
+[2021-05-20, 19:41:03] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:41:03] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:41:03] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:41:03] ==>  [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:41:14] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:41:14] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:41:14] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:41:14] ==>  [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:41:21] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:41:21] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:41:21] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:41:21] ==>  [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:49:30] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:49:30] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:49:30] ==> Error al abrir las colas
+[2021-05-20, 19:49:37] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:49:37] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:49:37] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:49:37] ==>  [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:50:11] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:50:11] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:50:11] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:50:11] ==>  [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:50:19] ==>  Recibido el mensaje: 
+[2021-05-20, 19:50:19] ==> 4
+[2021-05-20, 19:50:23] ==>  Recibido el mensaje: 
+[2021-05-20, 19:50:23] ==> 4
+[2021-05-20, 19:50:27] ==>  Recibido el mensaje: 
+[2021-05-20, 19:50:27] ==> 7
+[2021-05-20, 19:57:48] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:57:48] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:57:48] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:57:48] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:58:05] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:58:05] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:58:05] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:58:05] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:59:37] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 19:59:37] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 19:59:37] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 19:59:37] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 19:59:41] ==>  Recibido el mensaje: 
+[2021-05-20, 19:59:41] ==> 4
+[2021-05-20, 20:22:14] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 20:22:14] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 20:22:14] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 20:22:14] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 20:22:18] ==>  Recibido el mensaje: 
+[2021-05-20, 20:22:18] ==> 4
+[2021-05-20, 20:22:26] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 20:22:26] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 20:22:26] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 20:22:26] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 21:20:09] ==> [Cliente]: El nombre de la cola server es: �
+
+[2021-05-20, 21:20:09] ==> [Cliente]: El nombre de la cola client es: �
+
+[2021-05-20, 21:20:09] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 21:20:09] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 21:23:19] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 21:23:19] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 21:23:19] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 21:23:19] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 21:23:21] ==> [Cliente]: Se ha recibido la señal SIGINT con codigo entero 2
+
+[2021-05-20, 21:31:09] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 21:31:09] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 21:31:09] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 21:31:09] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 21:31:11] ==> [Cliente]: Se ha recibido la señal SIGINT con codigo entero 2
+
+[2021-05-20, 21:31:42] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 21:31:42] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 21:31:42] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 21:31:42] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 21:31:51] ==>  Recibido el mensaje: 
+[2021-05-20, 21:31:51] ==> 6
+[2021-05-20, 21:31:59] ==>  Recibido el mensaje: 
+[2021-05-20, 21:31:59] ==> 6
+[2021-05-20, 21:32:03] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:03] ==> 4
+[2021-05-20, 21:32:06] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:06] ==> 11
+[2021-05-20, 21:32:07] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:07] ==> 3
+[2021-05-20, 21:32:08] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:08] ==> 1
+[2021-05-20, 21:32:08] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:08] ==> 1
+[2021-05-20, 21:32:09] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:09] ==> 3
+[2021-05-20, 21:32:09] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:09] ==> 0
+[2021-05-20, 21:32:10] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:10] ==> 2
+[2021-05-20, 21:32:10] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:10] ==> 1
+[2021-05-20, 21:32:11] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:11] ==> 2
+[2021-05-20, 21:32:12] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:12] ==> 1
+[2021-05-20, 21:32:12] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:12] ==> 2
+[2021-05-20, 21:32:13] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:13] ==> 0
+[2021-05-20, 21:32:13] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:13] ==> 0
+[2021-05-20, 21:32:14] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:14] ==> 0
+[2021-05-20, 21:32:14] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:14] ==> 0
+[2021-05-20, 21:32:14] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:14] ==> 0
+[2021-05-20, 21:32:14] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:14] ==> 0
+[2021-05-20, 21:32:15] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:15] ==> 0
+[2021-05-20, 21:32:15] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:15] ==> 0
+[2021-05-20, 21:32:15] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:15] ==> 0
+[2021-05-20, 21:32:15] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:15] ==> 0
+[2021-05-20, 21:32:15] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:15] ==> 0
+[2021-05-20, 21:32:15] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:15] ==> 0
+[2021-05-20, 21:32:15] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:15] ==> 0
+[2021-05-20, 21:32:15] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:15] ==> 0
+[2021-05-20, 21:32:15] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:15] ==> 0
+[2021-05-20, 21:32:15] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:15] ==> 0
+[2021-05-20, 21:32:15] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:15] ==> 0
+[2021-05-20, 21:32:15] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:15] ==> 0
+[2021-05-20, 21:32:16] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:16] ==> 0
+[2021-05-20, 21:32:20] ==> [Cliente]: Se ha recibido la señal SIGINT con codigo entero 2
+
+[2021-05-20, 21:32:26] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 21:32:26] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 21:32:26] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 21:32:26] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 21:32:28] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:28] ==> 0
+[2021-05-20, 21:32:31] ==>  Recibido el mensaje: 
+[2021-05-20, 21:32:31] ==> 1
+[2021-05-20, 21:35:16] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-20, 21:35:16] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-20, 21:35:16] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-20, 21:35:16] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-20, 21:35:18] ==>  Recibido el mensaje: 
+[2021-05-20, 21:35:18] ==> 4
+[2021-05-20, 21:35:24] ==>  Recibido el mensaje: 
+[2021-05-20, 21:35:24] ==> 10
+[2021-05-20, 21:35:32] ==>  Recibido el mensaje: 
+[2021-05-20, 21:35:32] ==> 4
+[2021-05-20, 21:35:42] ==>  Recibido el mensaje: 
+[2021-05-20, 21:35:42] ==> 14
+[2021-05-20, 21:35:48] ==> [Cliente]: Se ha recibido la señal SIGINT con codigo entero 2
+
+[2021-05-23, 10:19:16] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 10:19:16] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 10:19:16] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 10:19:16] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 10:19:20] ==>  Recibido el mensaje: 
+[2021-05-23, 10:19:20] ==> 4
+[2021-05-23, 10:19:32] ==>  Recibido el mensaje: 
+[2021-05-23, 10:19:32] ==> 5
+[2021-05-23, 10:20:06] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 10:20:06] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 10:20:06] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 10:20:06] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 10:20:16] ==> [Cliente]: Se ha recibido la señal SIGINT con codigo entero 2
+
+[2021-05-23, 10:23:48] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 10:23:48] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 10:23:48] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 10:23:48] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 10:25:07] ==>  Recibido el mensaje: 
+[2021-05-23, 10:25:07] ==> 6
+[2021-05-23, 10:25:14] ==>  Recibido el mensaje: 
+[2021-05-23, 10:25:14] ==> 4
+[2021-05-23, 10:25:17] ==>  Recibido el mensaje: 
+[2021-05-23, 10:25:17] ==> 4
+[2021-05-23, 10:27:39] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 10:27:39] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 10:27:39] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 10:27:39] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 10:27:42] ==>  Recibido el mensaje: 
+[2021-05-23, 10:27:42] ==> 4
+[2021-05-23, 10:27:49] ==>  Recibido el mensaje: 
+[2021-05-23, 10:27:49] ==> 10
+[2021-05-23, 10:28:36] ==>  Recibido el mensaje: 
+[2021-05-23, 10:28:36] ==> 5
+[2021-05-23, 10:28:40] ==> [Cliente]: Se ha recibido la señal SIGINT con codigo entero 2
+
+[2021-05-23, 10:36:57] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 10:36:57] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 10:36:57] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 10:36:57] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 10:36:59] ==> Numero de caracteres recibidos: 
+[2021-05-23, 10:36:59] ==> 6
+[2021-05-23, 10:37:04] ==> Numero de caracteres recibidos: 
+[2021-05-23, 10:37:04] ==> 4
+[2021-05-23, 10:37:41] ==> [Cliente]: Se ha recibido la señal SIGINT con codigo entero 2
+
+[2021-05-23, 10:37:41] ==> exit
+[2021-05-23, 10:37:51] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 10:37:51] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 10:37:51] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 10:37:51] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 10:40:03] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 10:40:03] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 10:40:03] ==> Error al abrir las colas
+[2021-05-23, 10:40:10] ==> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 10:40:10] ==> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 10:40:10] ==> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 10:40:10] ==> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 10:40:11] ==> [Cliente]: Se ha recibido la señal SIGINT con codigo entero 2
+
+[2021-05-23, 10:40:11] ==> exit
+[2021-05-23, 10:44:54] ==> Hola
+
+[2021-05-23, 10:44:57] ==> hola
+
+[2021-05-23, 10:45:18] ==> exit
+
+[2021-05-23, 10:45:31] ==> Capturada la señal SIGINT con número: 2
+[2021-05-23, 10:45:31] ==> exit
+[2021-05-23, 10:45:37] ==> Capturada la señal SIGINT con número: 2
+[2021-05-23, 10:45:37] ==> exit
+[2021-05-23, 10:45:37] ==> Capturada la señal SIGINT con número: 2
+[2021-05-23, 10:45:37] ==> exit
+[2021-05-23, 10:45:39] ==> ej
+
+[2021-05-23, 10:45:40] ==> Capturada la señal SIGINT con número: 2
+[2021-05-23, 10:45:40] ==> exit
+[2021-05-23, 10:45:41] ==> 
+
+[2021-05-23, 10:45:44] ==> Capturada la señal SIGINT con número: 2
+[2021-05-23, 10:45:44] ==> exit
+[2021-05-23, 11:13:50] ==> Hola
+
+[2021-05-23, 11:15:41] ==> Capturada la señal SIGTERM con número: 15
+[2021-05-23, 11:15:41] ==> exit
+[2021-05-23, 11:16:13] ==> Capturada la señal SIGINT con número: 2
+[2021-05-23, 11:16:13] ==> exit
+[2021-05-23, 11:16:52] ==> Hola
+
+[2021-05-23, 11:17:30] ==> Adios
+
+[2021-05-23, 11:17:50] ==> Capturada la señal SIGINT con número: 2
+[2021-05-23, 11:17:50] ==> exit
+[2021-05-23, 11:17:51] ==> 
+
+[2021-05-23, 12:14:43] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 12:14:43] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 12:14:43] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 12:14:43] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 12:14:45] --> Numero de caracteres recibidos: 
+[2021-05-23, 12:14:45] --> Número de caracteres recibidos: 4
+[2021-05-23, 12:14:52] --> [Cliente]: Se ha recibido la señal SIGINT con codigo entero 2
+
+[2021-05-23, 12:17:15] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 12:17:15] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 12:17:15] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 12:17:15] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 12:17:39] --> [Cliente]: Se ha recibido la señal SIGTERM con codigo entero 15
+
+[2021-05-23, 12:26:37] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 12:26:37] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 12:26:37] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 12:26:37] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 12:26:40] --> [Cliente]: Se ha recibido la señal SIGINT con codigo entero 2
+
+[2021-05-23, 12:27:14] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 12:27:14] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 12:27:14] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 12:27:14] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 12:29:04] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 12:29:04] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 12:29:04] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 12:29:04] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 12:29:06] --> [Cliente]: Se ha recibido la señal SIGINT con codigo entero 2
+
+[2021-05-23, 12:32:27] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 12:32:27] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 12:32:27] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 12:32:27] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 12:32:29] --> [Cliente]: Se ha recibido la señal SIGINT con codigo entero 2
+
+[2021-05-23, 12:35:19] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 12:35:19] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 12:35:19] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 12:35:19] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 12:35:29] --> Se ha recibido la señal SIGINT con código 2.
+[2021-05-23, 12:35:56] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 12:35:56] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 12:35:56] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 12:35:56] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 12:35:58] --> Se ha recibido la señal SIGINT con código 2.
+[2021-05-23, 12:37:28] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 12:37:28] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 12:37:28] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 12:37:28] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 12:37:29] --> Se ha recibido la señal SIGINT con código 2.
+[2021-05-23, 12:38:46] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 12:38:46] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 12:38:46] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 12:38:46] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 12:38:49] --> Se ha recibido la señal SIGINT con código 2.
+[2021-05-23, 12:38:59] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 12:38:59] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 12:38:59] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 12:38:59] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 12:39:00] --> Se ha recibido la señal SIGINT con código 2.
+[2021-05-23, 13:04:29] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 13:04:29] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 13:04:29] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 13:04:29] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 13:04:45] --> Se ha recibido la señal SIGINT con código 2.
+[2021-05-23, 13:05:13] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 13:05:13] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 13:05:13] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 13:05:13] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 13:06:43] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 13:06:43] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 13:06:43] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 13:06:43] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 13:58:26] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 13:58:26] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 13:58:26] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 13:58:26] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 13:58:39] --> [Cliente]: Se ha recibido la señal SIGTERM con codigo entero 15
+
+[2021-05-23, 13:58:59] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 13:58:59] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 13:58:59] --> Error al abrir las colas
+[2021-05-23, 13:59:05] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 13:59:05] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 13:59:05] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 13:59:05] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 13:59:19] --> [Cliente]: Se ha recibido la señal SIGTERM con codigo entero 15
+
+[2021-05-23, 13:59:33] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 13:59:33] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 13:59:33] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 13:59:33] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 13:59:34] --> [Cliente]: Se ha recibido la señal SIGINT con codigo entero 2
+
+[2021-05-23, 13:59:40] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 13:59:40] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 13:59:40] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 13:59:40] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 13:59:58] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 13:59:58] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 13:59:58] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 13:59:58] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 14:00:07] --> [Cliente]: Se ha recibido la señal SIGTERM con codigo entero 15
+
+[2021-05-23, 14:00:32] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 14:00:32] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 14:00:32] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 14:00:32] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 14:00:35] --> Numero de caracteres recibidos: 
+[2021-05-23, 14:00:35] --> 4
+[2021-05-23, 14:00:37] --> Numero de caracteres recibidos: 
+[2021-05-23, 14:00:37] --> 4
+[2021-05-23, 14:00:41] --> Numero de caracteres recibidos: 
+[2021-05-23, 14:00:41] --> 4
+[2021-05-23, 14:00:44] --> [Cliente]: Se ha recibido la señal SIGINT con codigo entero 2
+
+[2021-05-23, 14:00:50] --> [Cliente]: El nombre de la cola server es: /server_queue-emilio
+
+[2021-05-23, 14:00:50] --> [Cliente]: El nombre de la cola client es: /client_queue-emilio
+
+[2021-05-23, 14:00:50] --> [Cliente]: El descriptor de la cola server es: 3
+
+[2021-05-23, 14:00:50] --> [Cliente]: El descriptor de la cola cliente es: 4
+
+[2021-05-23, 14:00:54] --> Numero de caracteres recibidos: 
+[2021-05-23, 14:00:54] --> 10

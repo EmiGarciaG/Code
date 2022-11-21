@@ -1,0 +1,62 @@
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+Nombre; LongitudUsuario; FechaModificacion; FechaAcceso; Tamaño; Bloques; Permisos; Ejecutable
+holaMundo.sh; 6; ; 2021-03-15 08:12:32.112666927 +0100; 30; 8; -rwxrw-r--; 1
+holaMundoVariable.sh; 6; ; 2021-03-15 08:12:32.036666904 +0100; 40; 8; -rwxrw-r--; 1
+papelera.sh; 6; ; 2021-03-15 08:12:32.220666960 +0100; 57; 8; -rwxrw-r--; 1
+ejemploForImFichScripts.sh; 6; ; 2021-03-15 08:12:32.372667006 +0100; 58; 8; -rwxrw-r--; 1
+comillas.sh; 6; ; 2021-03-15 08:12:31.956666885 +0100; 63; 8; -rwxrw-r--; 1
+ejemploForArg.sh; 6; ; 2021-03-15 08:12:32.296666983 +0100; 79; 8; -rwxrw-r--; 1
+ejemploFor1.sh; 6; ; 2021-03-15 08:12:31.916666877 +0100; 87; 8; -rwxrw-r--; 1
+arrayFor.sh; 6; ; 2021-03-15 08:12:32.580667069 +0100; 89; 8; -rwxrw-r--; 1
+ejemploFor2.sh; 6; ; 2021-03-15 08:12:32.332666994 +0100; 104; 8; -rwxrw-r--; 1
+ejemploFor2Bis.sh; 6; ; 2021-03-15 08:12:32.456667031 +0100; 123; 8; -rwxrw-r--; 1
+until.sh; 6; ; 2021-03-15 08:12:32.760667123 +0100; 131; 8; -rwxrw-r--; 1
+saludaUsuario.sh; 6; ; 2021-03-15 08:12:32.144666937 +0100; 154; 8; -rwxrw-r--; 1
+parametros.sh; 6; ; 2021-03-15 08:12:31.880666870 +0100; 157; 8; -rwxrw-r--; 1
+numeroRango.sh; 6; ; 2021-03-15 08:12:32.076666916 +0100; 171; 8; -rwxrw-r--; 1
+bashDepuracion.sh; 6; ; 2021-03-15 08:12:32.840667147 +0100; 173; 8; -rwxrw-r--; 1
+funcionHola.sh; 6; ; 2021-03-15 08:12:32.724667112 +0100; 179; 8; -rwxrw-r--; 1
+while.sh; 6; ; 2021-03-15 08:12:32.692667103 +0100; 183; 8; -rwxrw-r--; 1
+ejemploForTipoC.sh; 6; ; 2021-03-15 08:12:32.540667057 +0100; 184; 8; -rwxrw-r--; 1
+ejemploHereDocument.sh; 6; ; 2021-03-15 08:12:32.888667162 +0100; 203; 8; -rwxrw-r--; 1
+Personalizar.txt; 6; ; 2021-03-15 08:12:31.844666863 +0100; 210; 8; -rw-rw-r--; 0
+Personalizar.txt.bak_09-03-2021; 6; ; 2021-03-15 08:12:32.408667017 +0100; 210; 8; -rw-rw-r--; 0
+ejemploForListarFicheros.sh; 6; ; 2021-03-15 08:12:32.500667044 +0100; 223; 8; -rwxrw-r--; 1
+informacion.sh; 6; ; 2021-03-15 08:12:32.252666970 +0100; 229; 8; -rwxrw-r--; 1
+funcionCheck.sh; 6; ; 2021-03-15 08:12:32.804667136 +0100; 231; 8; -rwxrw-r--; 1
+arrayFor2.sh; 6; ; 2021-03-15 08:12:32.620667081 +0100; 253; 8; -rwxrw-r--; 1
+granArrayTriunfador.sh; 6; ; 2021-03-15 08:12:32.656667092 +0100; 262; 8; -rwxrw-r--; 1
+recorrido.sh; 6; ; 2021-03-17 10:28:43.963956224 +0100; 285; 8; -rwxrw-r--; 1
+operaciones.sh; 6; ; 2021-03-15 08:12:32.184666949 +0100; 319; 8; -rwxrw-r--; 1
+backup.sh; 6; ; 2021-03-15 08:12:31.996666893 +0100; 448; 8; -rwxrw-r--; 1
+braceExpansion.sh; 6; ; 2021-03-17 10:22:26.039968045 +0100; 820; 8; -rwxrw-r--; 1
+EjerciciosBash; 6; ; 2021-03-17 10:30:24.827953068 +0100; 4096; 8; drwx------; 1

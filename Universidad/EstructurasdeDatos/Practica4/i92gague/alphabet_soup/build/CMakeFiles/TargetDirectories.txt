@@ -1,0 +1,4 @@
+/home/emilio/Escritorio/EstructurasdeDatos/Practica4/i92gague/alphabet_soup/build/CMakeFiles/rebuild_cache.dir
+/home/emilio/Escritorio/EstructurasdeDatos/Practica4/i92gague/alphabet_soup/build/CMakeFiles/edit_cache.dir
+/home/emilio/Escritorio/EstructurasdeDatos/Practica4/i92gague/alphabet_soup/build/CMakeFiles/test_alphabet_soup_solver.dir
+/home/emilio/Escritorio/EstructurasdeDatos/Practica4/i92gague/alphabet_soup/build/CMakeFiles/test_trie.dir

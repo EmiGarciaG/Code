@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/emilio/Escritorio/EstructurasdeDatos/Practica3/i92gague/avl-tree/avltree.hpp
+cassert
+-
+exception
+-
+functional
+-
+memory
+-
+iostream
+-
+algorithm
+-
+functional
+-
+vector
+-
+
+/home/emilio/Escritorio/EstructurasdeDatos/Practica3/i92gague/avl-tree/avltree_imp.hpp
+avltree.hpp
+/home/emilio/Escritorio/EstructurasdeDatos/Practica3/i92gague/avl-tree/avltree.hpp
+
+/home/emilio/Escritorio/EstructurasdeDatos/Practica3/i92gague/avl-tree/test_avltree.cpp
+iostream
+-
+fstream
+-
+sstream
+-
+exception
+-
+vector
+-
+valarray
+-
+avltree_imp.hpp
+/home/emilio/Escritorio/EstructurasdeDatos/Practica3/i92gague/avl-tree/avltree_imp.hpp
+

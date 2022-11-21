@@ -1,0 +1,28 @@
+insert 1 32
+show
+insert 1 11
+show
+insert 1  69
+show
+insert 1 88
+show
+insert 1 58
+show
+search 69
+show
+search 100
+show
+insert 1 25
+show
+remove 1 58
+show
+remove 1 69
+show
+remove 1 88
+show
+remove 1 25
+show
+remove 1 32
+show
+remove 1 11
+show

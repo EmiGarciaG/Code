@@ -1,0 +1,32 @@
+Para compilar los ficheros base de cada práctica haz lo siguiente.
+
+    Crea una carpeta con tu login, por ejemplo i02gogua.
+    Copia en esa carpeta el fichero zip con las fuentes de las prácticas y descomprímela.
+    Borra el fichero zip.
+    Abre una terminal en la carpeta de la práctica.
+    Crea una carpeta para compilar: mkdir build
+    Entra en la carpeta: cd build
+    Ejecuta la herramienta CMake apuntando al directorio con las fuentes: cmake ..
+    Compila: make
+
+Para ejecutar el script para comprobar "run_tests.sh" debes estar en el directorio con las fuentes e indicar el fichero a ejecutar y la carpeta con los casos de prueba. Por ejemplo.
+
+./run_tests.sh build/test_kmeans tests_kmeans
+
+
+
+
+Tutorial de CMake:
+https://cmake.org/cmake/help/latest/guide/tutorial/index.html
+
+Punteros inteligentes (std::shared_ptr):
+http://www.cplusplus.com/reference/memory/shared_ptr/
+
+La palabra clave "auto" en C++11:
+https://docs.microsoft.com/es-es/cpp/cpp/auto-cpp?view=msvc-160
+
+Funciones Lambda:
+https://docs.microsoft.com/es-es/cpp/cpp/lambda-expressions-in-cpp?view=msvc-160
+
+Gestión de excepciones en C++11 y posterior:
+https://docs.microsoft.com/es-es/cpp/cpp/errors-and-exception-handling-modern-cpp?view=msvc-160

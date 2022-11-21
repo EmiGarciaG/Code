@@ -1,0 +1,36 @@
+En el ejercicio resumen de la sección 7 necesitamos distinguir si un argumento es un identificador numérico o un nombre.
+
+Para convertir la cadena a número y, simultáneamente, comprobar si es o no un número, podemos utilizar la función strtol.
+
+La página de strtol del manual de Linux dice:
+
+long strtol(const char *nptr, char **endptr, int base);
+
+If endptr is not NULL, strtol() stores the address of the first invalid character in *endptr.  If there were no digits at all, strtol() stores the original value of nptr in *endptr (and returns 0).  In particular, if  *nptr is not '\0' but **endptr is '\0' on return, the entire string is valid.
+
+Por tanto, podemos utilizar esta condición para comprobar que la cadena describe un número válido:
+
+
+
+char *cadena_o_numero;
+
+
+[...]
+
+
+
+char *endptr;
+
+long uid = strtol(cadena_o_numero, &endptr, 10);
+
+
+
+if (((*cadena_o_numero) != '\0') && ((*endptr) == '\0')) {
+
+ // strtol tiene éxito, la cadena contiene un número
+
+} else {
+
+ // strtol ha encontrado un error, la cadena NO contiene un número
+
+}

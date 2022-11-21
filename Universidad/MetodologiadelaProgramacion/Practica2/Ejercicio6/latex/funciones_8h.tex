@@ -1,0 +1,66 @@
+\hypertarget{funciones_8h}{}\section{Referencia del Archivo funciones.\+h}
+\label{funciones_8h}\index{funciones.\+h@{funciones.\+h}}
+
+
+Tenemos las siguientes funciones\+: reserva\+Matriz-\/$>$Funcion encargada de reservar memoria para una matriz de nfilas y ncolumnas.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+Dependencia gráfica adjunta para funciones.\+h\+:
+% FIG 0
+Gráfico de los archivos que directa o indirectamente incluyen a este archivo\+:
+% FIG 1
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+int $\ast$$\ast$ \hyperlink{funciones_8h_aa748a452f2f766861526e89f948d2817}{reserva\+Matriz} (int filas, int columnas)
+\item 
+\mbox{\Hypertarget{funciones_8h_a76e75a002b6d0581100388b490ff6749}\label{funciones_8h_a76e75a002b6d0581100388b490ff6749}} 
+void {\bfseries rellena\+Matriz} (int $\ast$$\ast$Matriz, int filas, int columnas)
+\item 
+\mbox{\Hypertarget{funciones_8h_a9f3d1e813d4ceed1d925b9093efbd203}\label{funciones_8h_a9f3d1e813d4ceed1d925b9093efbd203}} 
+void {\bfseries lee\+Matriz} (int $\ast$$\ast$Matriz, int filas, int columnas)
+\item 
+\mbox{\Hypertarget{funciones_8h_a59aa8c5b3db3b9e277563c44b752e9f0}\label{funciones_8h_a59aa8c5b3db3b9e277563c44b752e9f0}} 
+void {\bfseries divisibles} (int $\ast$$\ast$Matriz, int filas, int columnas, int $\ast$d, int $\ast$suma)
+\item 
+\mbox{\Hypertarget{funciones_8h_ad96265d8c16298a51f228111e5ed4c1f}\label{funciones_8h_ad96265d8c16298a51f228111e5ed4c1f}} 
+void {\bfseries libera\+Matriz} (int $\ast$$\ast$$\ast$Matriz, int filas)
+\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+Tenemos las siguientes funciones\+: reserva\+Matriz-\/$>$Funcion encargada de reservar memoria para una matriz de nfilas y ncolumnas. 
+
+rellena\+Matriz-\/$>$Funcion para introducir los numeros enteros que queramos lee\+Matriz-\/$>$Funcion para imprimir por pantalla los elementos de la matriz divisibles-\/$>$Funcion que mediante parametros pasados por referencia, devuelve la cantidad de elementos divisibles por 3 en la matriz y la suma estos ultimos. libera\+Matriz-\/$>$Libera la reserva de memoria de la matriz. 
+
+\subsection{Documentación de las funciones}
+\mbox{\Hypertarget{funciones_8h_aa748a452f2f766861526e89f948d2817}\label{funciones_8h_aa748a452f2f766861526e89f948d2817}} 
+\index{funciones.\+h@{funciones.\+h}!reserva\+Matriz@{reserva\+Matriz}}
+\index{reserva\+Matriz@{reserva\+Matriz}!funciones.\+h@{funciones.\+h}}
+\subsubsection{\texorpdfstring{reserva\+Matriz()}{reservaMatriz()}}
+{\footnotesize\ttfamily int$\ast$$\ast$ reserva\+Matriz (\begin{DoxyParamCaption}\item[{int}]{filas,  }\item[{int}]{columnas }\end{DoxyParamCaption})}
+
+
+\begin{DoxyParams}{Parámetros}
+{\em filas=n} & umero de filas de la parametros \\
+\hline
+{\em columnas=} & numero de filas de la parametros \\
+\hline
+{\em Matriz=} & Matriz que vamos a escribir \\
+\hline
+\end{DoxyParams}
+\begin{DoxyAuthor}{Autor}
+Emilio Garcia Gutierrez 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Fecha}
+13/04/2020 
+\end{DoxyDate}
+\begin{DoxyVersion}{Versión}
+1.\+0 
+\end{DoxyVersion}
+
+
+Definición en la línea 6 del archivo funciones.\+c.
+

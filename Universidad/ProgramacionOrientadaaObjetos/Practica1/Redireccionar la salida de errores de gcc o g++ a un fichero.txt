@@ -1,0 +1,19 @@
+Si te pasa que cuando compilas un programa en C o en C++ con gcc (o g++) te salen muchos errores y no puedes verlos todos porque la salida es muy larga y no puedes llegar al primer error con el scroll del terimnal. Entonces, prueba esto:
+
+gcc prueba.c 2> salida.txt
+
+o bien
+
+g++ prueba.c 2> salida.txt
+
+o bien
+
+make test 2> salida.txt
+
+(OJO: entre el "2" y el ">" no hay ningún espacio)
+
+Todo proceso que ejecutamos (en este caso gcc/g++) tiene asociado un fichero de entrada estándar (STDIN), salida estándar (STDOUT) y error estándar (STDERR), que se abrevian con los números 1, 2 y 3 respectivamente.
+
+Nosotros queremos redireccionar la salida (STDOUT) del comando a un fichero (con ">"), por eso usamos el identificador "2" que es el que se corresponde con STDOUT.
+
+En vez de 2 también puede usarse "&" que se refiere tanto a STDOUT como a STDERR.

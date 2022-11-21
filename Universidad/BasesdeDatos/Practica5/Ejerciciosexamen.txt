@@ -1,0 +1,22 @@
+Ejercicio1
+Defina un procedimiento PL/SQL que calcule y muestre por pantalla el numero de ocurrencias de cada apellido
+de la tabla votantes. Finalmente, se deberá mostrar por pantalla el apellido que aparece más veces, así como el número de ocurrencias
+-------------------------------------------------------------------
+Ejercicio2
+------
+Parte1
+Crea una tabla, llamada VIP y que contenga los siguientes campos: dni(tipo number; tamaño 8; clave primaria), 
+nombrecompleto(tipo varchar2; tamaño 64), 
+prestacion(tipo number; tamaño 5; no nulo), 
+fechanacimiento(tipo date; no nulo), 
+email(tipo varchar2; tamaño 32; no nulo).
+------
+Parte2
+Crea un procedimiento PL/SQL que inserte la informacion necesaria en la tabla VIP a partir
+de la tabla votantes. Un votantes se incluira en la nueva tabla unicamente 
+si su nombre empieza por 'A' y, ademas, nacio con posterioridad al 01/01/93 o con 
+anterioridad al 01/01/60. El campo prestacion se pondra en base a su situacion laboral
+siendo 2000 para parados, 1500 para estudiantes, 500 para las personas activas, 500 si 
+son jubilados. EL procedimiento debera mostrar por pantalla cuantos votantes se han insertado
+de cada tipo (parados, activos, estudiantes, jubilados), cuanto dinero se necesita cada mes para pagar las prestaciones y cual es la prestacion media de los votantes introducidos.
+Por ejemplo, si se insertan 1 persona estudiante, 1 jubilado y 2 activos entonces se necesitara 3000 euros y una prestacion media de 750.
